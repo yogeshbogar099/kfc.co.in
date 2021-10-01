@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#FAFAFA;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    padding-bottom:20px ;
+}
+
+#nav-bar {
+    margin: 1.5% 5%;
+    position: sticky;
+    top: 0;
+   
+}
+.nav-txt{
+    display: flex;
+    vertical-align: -20px;
+  
+}
+
+.sign {
+    margin: 5px;
+    display: inline-block;
+}
+.logo-1 {
+    display: inline-block;
+    vertical-align: -10px;
+}
+.headr {
+   
+    text-decoration: none;
+    margin: auto;
+}
+.sign-tab {
+    margin-left: 50%;
+}
+.head-txt {
+    font-size: 18px;
+    color:#212121;
+    font-weight: 600;
+}
+
+
+#black {
+    width: 100%;
+    height: 70px;
+    background-color: #212529;
+    position: sticky;
+    
+}
+.center {
+    margin-left: 6%;
+}
+#left-right {
+  
+    width: 100%;
+    margin: auto;
+}
+#left-side {
+    float: left;
+    width: 22%;
+
+    
+    position: fixed;
+    
+    margin-left:6%;
+   
+
+}
+#right-side {
+    float: right;
+   
+    width: 60%;
+   
+    margin-right:6%;
+    margin-top: 30px;
+    
+}
+
+
+
+.title-menu {
+    font-family: 'Crete Round', serif;
+    line-height: 1.8;
+    font-size: 44px;
+} 
+#menu-type2 {
+    line-height: 2.0;
+    font-size: 20px;
+    color: #212529;
+    font-weight: 500;
+    cursor: pointer;
+}
+.search {
+    position : relative;
+    width: 250px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50px;
+    transition: 0.5%;
+    box-shadow: 0 0 0 1px #212529;
+    overflow: hidden;
+
+
+}
+.search .bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 30px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    cursor: pointer;
+}
+.search .bar::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #212529;
+    border-radius: 50%;
+    transform: translate(-107px, 0px) rotate(315deg);
+    
+}
+.search .bar::after{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 6px;
+    background-color:#212529;
+    transform: translate(-100px, 6.5px) rotate(315deg);
+}
+.search .input {
+    position: relative;
+    width: 200px;
+    height: 13px;
+    left: 35px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search .input input {
+    color: #212121;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.line-2 {
+    width: 100%;
+    border: 2px solid #212121;
+    margin-top: 10px;
+}
+.Heading {
+    font-family: 'Crete Round', serif;
+    margin-bottom: 30px;
+    margin-left: -20px;
+}
+.orderfood {
+    width: 90%;
+    height: 250px;
+    border-radius: 6px;
+}
+.red-dot {
+    border: 2px solid red;
+    width: 2px;
+    height: 2px;
+    background: red;
+    border-radius: 50%;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+.green-dot {
+    border: 2px solid green;
+    width: 2px;
+    height: 2px;
+    background:green;
+    border-radius: 50%;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+.detail {
+    line-height: 2.0;
+}
+.dot {
+    display: flex;
+    margin: 3px;
+}
+.btn {
+    margin: 5% 2%;
+    padding: 0.5% 4%;
+    font-size: 19px;
+    border-radius: 30px;
+    background-color: red;
+    color: #fff;
+    border: none;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(243, 23, 23);
+}
+#Trending-menu{
+    background-color: #E8EAF6;
+    padding: 3% 3%;
+    margin-top: 20px;
+    border-radius: 10px;
+   
+}
+
+.list-item {
+    width: 100%;
+    display: grid;
+    grid-template-columns:  50% 50%;
+    grid-gap: 50px 2%;
+
+    margin-left:2%;
+    
+
+}
+.bucket-item {
+    width: 100%;
+   background-color: #FAFAFA;
+    box-shadow:0.3em 0.3em 1em rgba(0,0,0,0.3);
+    border-radius: 10px;
+    
+}
+.im-bucket {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+
+}
+.par {
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#Bucket-food{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 25px 1%;
+}
+#bucket-list {
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.title {
+    width: 90%;
+    margin-left: 4%;
+}
+.rupee {
+    width: 90%;
+    margin-left: 4%;
+} 
+.dot {
+    width: 90%;
+    margin-left: 4%;
+}
+.btn-2 {
+    margin-top: 30px;
+}
+.btn-3 {
+    margin-top: 30px;
+}
+.btn-4 {
+    margin-top: 50px;
+}
+.cont {
+    width: 100%;
+    background-color: #212121;
+    padding: 30px;
+    
+   
+    
+   
+}
+.play-store {
+    width: 50%;
+    
+}
+
+.gr {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap:20px 50%;
+    margin-left: 40%
+}
+.first {
+        width: 300%;
+    color: white;
+    
+}
+.whole {
+    width: 30%;
+    display: flex;
+}
+#carter {
+    margin-left: 100px;
+}
+#menu-type2 a {
+    text-decoration: none;
+    color: #212121;
+}
+#menu-type2:hover {
+    font-weight: bold;
+}
+#menu-type2{
+   
+   position: relative;
+}
+#right-right{
+    position: relative;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+.fixed {
+    z-index: 10000;
+}

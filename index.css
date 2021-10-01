@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#FAFAFA;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+.container {
+    width: 100%;
+    padding-bottom:20px ;
+}
+
+#nav-bar {
+    margin: 1.5% 5%;
+   
+}
+.nav-txt{
+    display: flex;
+    vertical-align: -20px;
+}
+
+.sign {
+    margin: 5px;
+    display: inline-block;
+}
+.logo-1 {
+    display: inline-block;
+    vertical-align: -10px;
+}
+.headr {
+   
+    text-decoration: none;
+    margin: auto;
+}
+.sign-tab {
+    margin-left: 50%;
+}
+.head-txt {
+    font-size: 18px;
+    color:#212121;
+    font-weight: 600;
+}
+
+
+#black {
+    width: 100%;
+    height: 70px;
+    background-color: #212529;
+    
+}
+.center {
+   margin-left: 47%;
+   margin-top: 0%;
+}
+.center-heading {
+   width: 30%;
+    margin: 20px auto;
+    font-size: 20px;
+    color: #212121;
+}
+#order-type {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    width: 35%;
+   
+    border-radius: 25px;
+    margin: auto;
+    
+}
+.center-order {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 3%;
+    width: 30%;
+    margin: 1.5px auto;
+    background-color: #F44336;
+    
+}
+.top-order {
+    margin: 16px auto;
+}
+.cen {
+    margin-left: 30PX;
+}
+.offer-pic {
+    width: 100%;
+    margin-top: 40px;
+}
+.left {
+    margin-left: 10%;
+    margin-top: -5%;
+}
+.welcome {
+    margin: 5%;
+    font-size: 48px;
+}
+.meddle {
+    background-color: #E8EAF6;
+    padding-bottom: 1px;
+}
+.browse {
+    margin-left: 5%;
+    margin-top: 5%;
+
+    font-size: 40px; 
+    display: inline-block;
+}
+.line {
+    width: 55%;
+    border: 2px solid #C5CAE9;
+    display: inline-block;
+    vertical-align: 10px;
+    
+}
+.food-grid {
+    width: 200%;
+    background-color: #E0E0E0;
+    padding-bottom: 15px;
+    
+
+}
+.food-type {
+    width: 100%;
+    height: 200px;
+}
+.food-name {
+    
+    text-align: center;
+    color: #212121;
+
+}
+.use-grid {
+    
+    text-decoration: none;
+}
+#food-image {
+   
+    display: grid;
+    width: 100%;
+    grid-gap: 25px 12%;
+    margin: 30px auto;
+    grid-gap:-10%;
+    grid-template-columns: 10% 10% 10% 10%;
+    margin-left: 5%;
+}
+.end {
+    border: 1px solid black;
+    background-color: #212121;
+    width: 100%;
+}
+.left-1 {
+    margin-top: 0px;
+    margin-left: 15%;
+    width: 6%;
+}
+.end-head {
+    margin-left: 15%;
+    margin-top: 20px;
+    display: inline-block;
+    color: #FAFAFA;
+}
+.par {
+    margin-left: 45%;
+    display: inline-block;
+    color: #FAFAFA;
+    
+}
+.cont {
+    width: 100%;
+    background-color: #212121;
+    padding: 30px;
+    
+   
+    
+   
+}
+.play-store {
+    width: 50%;
+    
+}
+
+.gr {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap:20px 50%;
+    margin-left: 40%
+}
+.first {
+        width: 300%;
+    color: white;
+    
+}
+.whole {
+    width: 30%;
+    display: flex;
+}
+#carter {
+    margin-left: 100px;
+}
+

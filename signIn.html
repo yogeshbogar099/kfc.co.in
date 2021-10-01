@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #contain {
+        width: 100%;
+        margin: 100px -5%; 
+        text-align: center;
+        }
+        img {
+            margin-top: 40px;
+        }
+        h3 {
+            margin-top: 30px;
+        }
+
+        input {
+            width: 20%;
+            height: 20px;
+            border-bottom: 40%;
+        }
+        .sub {
+            text-decoration: none;
+            color:white;
+            padding: 20px 20%;
+           justify-content: center;
+           border: 1px solid black;
+           background-color:black;
+
+            margin-top: 50px;
+            border-radius: 25px;
+            border: none;
+        }
+        .sub:hover {
+            color: white;
+            background-color: white;
+        }
+        
+        #number {
+            margin-top: 20px;
+        }
+        #contain {
+            border: 2px solid red;
+            width: 25%;
+            margin: auto;       
+         }
+         .diff {
+             color :black
+         }
+
+    </style>
+</head>
+<body>
+    <div id="contain">
+    <div>sign In/ sign Up</div>
+    <div class= "logo">
+        <img src="https://login.kfc.co.in/auth/resources/woq9r/login/kfcIndiaLoginUIDev_2021_09_06_12_37/images/KFC_logo.svg" alt="logo">
+    </div>
+    <div>
+        <h3>WE JUST TEXTED YOU!
+        </h3>
+        <p>Please enter the verification code we just sent to 917972907897</p>
+        <a class="diff" href="C:\Users\acer\Documents\yogesh_fw10_135-master\unit-2\sprint-4\evaluation\signup.html">different Number?</a>
+
+    </div>
+    <div>
+        <form name="tform" action="#" method="post" onsubmit="return validate()">
+        <input id="number" type="text" placeholder="Phone Number">
+    
+    <p>Resend the Code</p>
+    
+       <button class="sub"><a href="C:\Users\acer\Documents\yogesh_fw10_135-master\unit-2\sprint-4\evaluation\index.html">Submit</a></button>
+    </form>
+   
+    </div>   
+
+    </div>
+  
+
+    <script>
+        function validate () {
+            var input_text = document.getElementById("number");
+            if(input_text.value==="") {
+                alert("Enter Number First")
+                return false
+            } 
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#FAFAFA;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+.container {
+    width: 100%;
+    padding-bottom:20px ;
+}
+
+#nav-bar {
+    margin: 1.5% 5%;
+   
+}
+.nav-txt{
+    display: flex;
+    vertical-align: -20px;
+}
+
+.sign {
+    margin: 5px;
+    display: inline-block;
+}
+.logo-1 {
+    display: inline-block;
+    vertical-align: -10px;
+}
+.headr {
+   
+    text-decoration: none;
+    margin: auto;
+}
+.sign-tab {
+    margin-left: 50%;
+}
+.head-txt {
+    font-size: 18px;
+    color:#212121;
+    font-weight: 600;
+}
+
+
+#black {
+    width: 100%;
+    height: 70px;
+    background-color: #212529;
+    
+}
+
+#sliding-pic {
+    background-image: url("https://online.kfc.co.in/static/media/offer_deals_banner.777f20e1.svg");
+    height: 250px;
+    background-size:cover;
+    
+}
+.de-of {
+    font-weight: bold;
+    font-size: 72px;
+   color: white;
+   margin-left: 35%;
+   padding-top: 50px;
+
+  
+}
+.left {
+    width: 5%;
+    margin-left: 15%;
+}
+.heads {
+    margin-left: 15%;
+    margin-top: 25px;
+}
+.grid-block {
+    width: 90%;
+    margin: auto;
+    box-shadow:0.3em 0.3em 1em rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+.imgs {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  
+}
+.offer-s {
+    width: 100%;
+    height:90px;
+    margin: auto;
+    overflow:hidden
+
+}
+.btns {
+    display: flex;
+    padding: 10px 10%;
+    vertical-align: middle;
+
+} 
+.bttn {
+    padding: 10px 50%;
+    margin-left: 130%;
+    border-radius: 25px;
+    border: 1px solid black ;
+    cursor: pointer;
+
+}
+#grid-use {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap : 25px 0;
+    margin-left: 10%;
+    margin-top: 50px;
+
+    
+
+}
+.bttn:hover{
+    background-color: #212121;
+    color: white;
+}
+.add-new {
+    font-size: 52px;
+    font-weight: 900;
+}
