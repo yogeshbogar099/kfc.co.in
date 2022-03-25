@@ -15,8 +15,8 @@ This project is about copying the famous fast food chicken restaurant chain.
   
 <h2>Get in touch</h2>
 
-<a href="https://www.linkedin.com/in/yogesh-bogar-0bb066219/">Linkedin</a>
-<a href="https://medium.com/@yogeshbogar099">Medium</a>
+<div><a href="https://www.linkedin.com/in/yogesh-bogar-0bb066219/">Linkedin-Yogesh Ashok Bogar</a></div>
+<div><a href="https://medium.com/@yogeshbogar099">Medium-Yogesh Ashok Bogar</a></div>
 
 
     
